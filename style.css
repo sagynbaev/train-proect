@@ -1,0 +1,470 @@
+
+.street {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+ 
+   
+} 
+.bashka2{
+    padding: 0px 0px 0px 10px !important;
+}
+.aktivniy:active{
+    background-color: yellow;
+}
+.location{
+        height: 40px;
+    margin-left: 60px;
+} 
+.color{
+color: black !important;;
+
+}
+.color:last-child{
+    margin-right: 40px;
+}
+.color:hover{
+    background-color: yellow;
+
+}
+.bashka{
+padding: 0px !important;
+}
+
+.section1{
+  background-image: url(./img/hero-bg.jpg);
+}
+
+.bcYellow{
+    background-color: yellow;
+    padding:17px 0;
+    
+    max-width: 300px;
+}
+#header{
+    margin: 0;
+    padding: 0;
+}
+.set-bg { 
+    background-image: url(img/hero-bg.jpg); 
+ background-repeat: no-repeat; 
+ background-size: cover; 
+ background-position: center center; 
+    background-attachment: fixed; 
+}
+.hero-section { 
+    height: 670px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+   } 
+    
+   .hero-text { 
+    padding-top: 50px; 
+   } 
+    
+   .hero-text h2 { 
+    font-size: 96px; 
+    color: #fff; 
+    line-height: 1; 
+   } 
+    
+   .hero-text h2 span { 
+    color: #fcff18; 
+   } 
+    
+   .hero-text .site-btn{ 
+    margin-top: 100px !important;
+    background-color: yellow;
+    text-decoration: none;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 30px;
+
+   }
+   .consectetur{
+    margin-bottom: 90px;
+   }
+   .secondSection span{
+    background-color: yellow;
+   }
+   .divIconOne h3{
+        font-weight: bold;
+   }
+
+   .flatIcon{
+    border: 3px solid yellow;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(230, 228, 228);
+    margin-left: 25%;
+    transition: 0.5s;
+    /* position: relative;
+    left: 80px; */
+   }
+   .flatIcon:hover{
+    background-color: yellow;
+    border: 3px solid yellow;
+
+   }
+   .secondSection{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    height: 450px;
+   }
+.divIconOne h3, p{
+    text-align: start !important;
+}
+.mTop{
+    margin-left: 10px;
+    padding-top:5% ;
+}
+.pay{
+    margin-top: 200px !important;
+    background-image: url(./img/add-bg.jpg);
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center !important;
+} 
+.galki{
+    display: flex;
+    justify-content:center;
+}
+.procent{
+    margin-right: 54px;
+}
+.galochka{
+
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+.pay h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    
+}
+.pay p{
+    margin-left: 10px;
+ text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.yellowH1{
+    color: #fcff18 !important;
+    margin-bottom: 40px;
+    margin-right: 80px;
+}
+.btnBecome{
+    background-color: yellow;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 115px;
+}
+.happy-clients{
+    padding: 50px;
+    background-color: silver;
+}
+.numbers{
+    width: 180px;
+    margin-bottom: 0;
+    padding: 5px 30px;
+    background-color: yellow;
+    font-weight:600;
+    text-align: center ;
+}
+.trainers { 
+    padding: 120px 0 75px; 
+   } 
+    
+  
+   .trainer { 
+    text-align: center; 
+    padding: 0 5px; 
+    margin-bottom: 30px; 
+   } 
+    
+   .trainer img { 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    margin: 0 auto 30px; 
+    overflow: hidden;
+    max-width: 100%;  
+   } 
+    
+  
+    
+   .trainer h1{ 
+    margin-bottom: 20px; 
+   } 
+    
+   .trainer p { 
+    margin-bottom: 0; 
+   }
+
+footer{
+    background-image: url(img/hero-bg.jpg); 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    background-position: top top; 
+       background-attachment: fixed; 
+   
+}
+.footer-section { 
+    padding-top: 106px; 
+    padding-bottom: 23px; 
+       background-image: url(img/hero-bg.jpg); 
+   } 
+    
+   .footer-widget { 
+    margin-bottom: 50px; 
+   } 
+    
+   .footer-widget h4 { 
+    color: #fff; 
+    margin-bottom: 30px; 
+   } 
+    
+   .footer-widget .fw-info-box img { 
+    float: left; 
+    margin-right: 12px; 
+    padding-top: 7px; 
+   } 
+    
+   .footer-widget .fw-info-box p { 
+    color: #b5babc; 
+    line-height: 1.8; 
+    margin-bottom: 0; 
+   } 
+    
+   .footer-widget .fw-info-box .fw-info-text { 
+    max-width: 145px; 
+    overflow: hidden; 
+   } 
+    
+   .footer-widget .social-links a { 
+    display: inline-block; 
+    padding: 9px 5px; 
+    color: #d1d1d1; 
+    margin-left: 18px; 
+   } 
+    
+    
+   .footer-menu { 
+    list-style: none; 
+    text-align: right; 
+    padding-top: 30px; 
+   } 
+    
+   .footer-menu li { 
+    display: inline-block; 
+   } 
+    
+   .footer-menu li a { 
+    color: #fff; 
+    font-size: 14px; 
+    font-weight: 700; 
+    padding: 5px; 
+    margin-left: 23px; 
+   }
+@media (max-width:767px) {
+    .flatIcon{
+       margin-left: 30%;
+    }
+    .street{
+        width: 100%;
+    } 
+    .color{
+        text-align: center !important;
+    }
+    .bcYellow{
+        max-width: 100%;
+        text-align: center;
+        
+    }
+    .hero-text h2 {
+        font-size: 50px;
+    }
+    .bashka2{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .flatIcon{
+        margin-left: 25%;
+    }
+    .divIconOne h3, p{
+        text-align: start !important;
+    }
+    .pay{
+        margin-top: 850px !important;
+        background-position:center center; 
+        height: 100%;
+    }
+    .golova{
+         position: relative;
+         left: 30%;
+      display: flex;
+      flex-direction: column;
+    max-width: 250px;
+    
+    
+    }
+    
+  
+    .golova p{
+        text-align: start !important; 
+    }
+    
+    .media{
+        flex-direction: column;
+    }
+   
+    .numbers{
+  margin: 0;
+  padding: 0;
+    }
+}
+@media (max-width:450px) {
+
+    .golova{
+        position: relative;
+        left: 25%;
+    }
+   
+ 
+           
+   
+   
+  
+}
+
+
+
+
+
+.okno { 
+    position: fixed; 
+    top: 400px; 
+    left: -100%; 
+    width: 40%; 
+    height: 20%; 
+   
+    z-index: 9999; 
+    transition: all 0.3s ease-in-out; 
+  } 
+   
+  .okno.show { 
+    left: 0; 
+   
+  } 
+   
+  .okno-soder { 
+    position: relative; 
+    left: 20px; 
+    top: 60%; 
+    height: 60vh; 
+    transform: translateY(-50%); 
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px; 
+    width: 60%; 
+   
+  } 
+   
+  .okno , .strelkaGolovy{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  } 
+   
+  .okno , .strelkaGolovy h1 { 
+    font-size: 24px; 
+  } 
+   
+  .okno , .bady p { 
+    font-size: 18px; 
+  } 
+   
+  /* .strelka { 
+    display: inline-block; 
+    width: 0; 
+    height: 0; 
+    border-style: solid; 
+  }  */
+   
+  .strelkaGolovy { 
+    display: inline-block; 
+    width: 0; 
+    height: 0; 
+    border-style: solid; 
+  } 
+   
+  .otkryt-okno { 
+    position: fixed; 
+    left: 0px; 
+    top: 340px; 
+    background-color: #fff; 
+    padding: 0px; 
+    border-radius: 50%; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+    z-index: 99999; 
+  } 
+   .cvettStrelka{
+    color: white;
+    font-size: 10px;
+   }
+  .otkryt-okno:focus { 
+    outline: none; 
+  } 
+   .fontsize{
+    color: white;
+   }
+   .bady,.cvettStrelka{
+    margin:  40px;
+    width: 150px;
+   }
+   .svet-picker{
+    margin: 50px;
+    color: white;
+   }
+  .cvettStrelka{ 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+  } 
+   
+  .cvetStrelka{ 
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+    border-radius: 50%; 
+    border: none; 
+    cursor: pointer; 
+  } 
+   
+  .cvetStrelka:nth-child(4) { 
+    background-color: red; 
+  } 
+   
+  .cvetStrelka:nth-child(2) { 
+    background-color: green; 
+  } 
+  .cvetStrelka:nth-child(3){
+    background-color: blue;
+  }
+  .zakryt-okno{
+    position: fixed;
+    left: 363px;
+    top: 220px;
+  }

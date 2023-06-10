@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <li class="nav-item fs-5 ms-4 fw-bold ">
+    <a class="nav-link color aktivniy" aria-current="page" href="../home.html">Home <svg class="strelka" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+    </svg></a>
+  </li>
+    <form class="raspisanie">
+        <h1>Расписание</h1>
+      <label class="dayOfWeek" for="День недели">день недели:</label>
+      <select id="dayOfWeek" name="dayOfWeek">
+        <option value="Понедельник">Понедельник</option>
+        <option value="Вторник">Вторник</option>
+        <option value="Среда">Среда</option>
+        <option value="Четверг">Четверг</option>
+        <option value="Пятница">Пятница</option>
+        <option value="Суббота">Суббота</option>
+        <option value="Воскресенье">Воскресенье</option>
+      </select>
+      <br><br>
+      <label class="time" for="Время">время:</label>
+      <select id="time" name="time">
+        <option value="9:00">9:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+      </select>
+      <br><br>
+      <label class="importance" for="Важность">важность:</label>
+      <select id="importance" name="importance">
+        <option value="не важно">не важно</option>
+        <option value="важно">важно</option>
+        <option value="очень важно ">очень важно</option>
+      </select>
+      <br><br>
+      <label for="Предмет"></label>
+      <textarea type="text"  cols="20" rows="10" placeholder="напишите название урока....." id="subject" name="subject"></textarea> <br> <br>
+      <input type="button" class="btnAdd" value="Добавить" onclick="addTask()">
+      <input type="button" class="btnSh" value="Показать расписание" onclick="showList()">
+      <ul id="list"></ul>
+    </form>
+    <br>
+    <ul id="list"></ul>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

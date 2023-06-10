@@ -1,0 +1,45 @@
+.street {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+ 
+   
+} 
+.aktivniy:active{
+    background-color: yellow;
+}
+.location{
+        height: 40px;
+    margin-left: 60px;
+} 
+.color{
+color: black !important;;
+
+}
+.color:last-child{
+    margin-right: 40px;
+}
+.color:hover{
+    background-color: yellow;
+
+}
+.bashka{
+padding: 0px !important;
+}
+
+.section1{
+  background-image: url(hero-bg.jpg);
+}
+
+.bcYellow{
+    background-color: yellow;
+    padding:17px 0;
+    
+    max-width: 300px;
+}
+#header{
+    margin: 0;
+    padding: 0;
+}

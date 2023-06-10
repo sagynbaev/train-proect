@@ -1,0 +1,101 @@
+.raspisanie{
+    position: absolute;
+    left: 46%;
+    top: 12%;
+    
+}
+.strelka{
+    color:red;
+}
+.nav-item{
+    list-style-type: none !important;
+}
+.aktivniy{
+    font-size: 30px;
+    text-decoration: none;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    color:white
+}
+.aktivniy:hover{
+    color: black;
+    background-color: yellow;
+}
+h1{
+    font-size: 45px;
+    font-weight: normal;
+    color: silver;
+    text-align: center;
+}
+body{
+    background-image: url(./295144.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+   
+}
+#list{
+   font-weight: bold;
+    background-color: yellow;
+  font-size: larger;
+
+}
+#subject{
+    width: 200px;
+    height: 200px;
+}
+#dayOfWeek, #time , #importance{
+    background-color: silver;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.dayOfWeek ,.time , .importance{
+    color: silver;
+    font-size: larger;
+}
+.btnAdd{
+    background-color:#40cfff;
+    color: white;
+    padding: 10px 10px ;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.btnSh{
+    background-color:green; 
+    color: white;
+    padding: 10px 10px ;
+    border-radius: 7px;
+    font-size: 15px;
+}
+@media (max-width:600px) {
+    .raspisanie{
+        position: absolute;
+        left: 16%;
+        top: 27%;
+       
+        
+    }
+   
+}
+@media (max-width:900px) {
+    .raspisanie{
+        position: absolute;
+        left: 16%;
+        top: 27%;
+       
+        
+    }}
+  
+@media (max-width:1200px) {
+    .raspisanie{
+        position: absolute;
+        left: 16%;
+        top: 27%;
+       
+        
+    }
+
+}
